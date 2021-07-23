@@ -21,7 +21,7 @@ class VideoBanner extends Component {
 								<div className='main-banner-content text-center'>
 									<span>Welcome To</span>
 									<h1>
-										Los Villas de <b>Vista Mariposa</b>
+										The <b>Shorecliff Villages</b>
 									</h1>
 									<h4 style={{color: '#ffffff'}}>Powerstone Property Management</h4>
 								</div>

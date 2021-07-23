@@ -16,6 +16,25 @@
 		color: #ffffff;
 		font-weight: 900;
 	}
+
+	.team-box .box-content .box-inner-content {
+		width: 80%;
+		height: 40%;
+	}
+
+	.my-owl {
+		padding-left: 2rem;
+		display: none;
+		width: 95%;
+		margin-left: 4rem;
+		z-index: 1;
+	}
+	
+	.team-box .box-content .box-inner-content .post {
+		display: block;
+		margin-top: 0px;
+		color: #0e294e;
+	}
 	
 
 	/*************************/
@@ -388,7 +407,8 @@
 		line-height: 32px;
 	}
 	.team-slides.owl-theme .owl-nav {
-		margin-top: 25px;
+		margin-top: 20px;
+		margin-right: 10rem;
 	}
 	.team-slides.owl-theme .owl-nav [class*='owl-'] {
 		position: relative;

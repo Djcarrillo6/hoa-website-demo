@@ -239,14 +239,18 @@ body {
 }
 
 /* LTR CSS */
-.owl-carousel, .bx-wrapper {
+.owl-carousel .bx-wrapper {
     direction: ltr;
+    padding-left: 3rem;
+    width: 95%;
+    margin-left: 6rem;
+    z-index: 1;
 }
 .owl-carousel .owl-item {
     direction: rtl;
 }
 
- 
+
 /* RTL responsive css*/
 @media only screen and (max-width: 767px) {
     .counter-wrap .single-counter {

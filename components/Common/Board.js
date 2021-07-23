@@ -49,15 +49,15 @@ class Board extends Component {
 						<div className='section-title'>
 							<span>Meet Your Board</span>
 							<h2>
-								Vista Mariposa <b>Board of Directors</b>
+								Shorecliff Villages <b>Board of Directors</b>
 							</h2>
 						</div>
 						<div id='section-info'>
 							<p>
-								Vista Mariposa Community Association (VMCA), founded in 1982, is
+								Shorecliff Villages Community Association (SVC), founded in 1982, is
 								the Master Homeowners Association for most of the City of Vista
 								Mariposa and a small portion of the City of Laguna Hills located
-								at Laguna Hills Drive and Moulton Parkway. Vista Mariposa
+								at Laguna Hills Drive and Moulton Parkway. Shorecliff Villages
 								Community Association’s mission is to protect, preserve and
 								maintain the Association’s twenty-one parks and slopes within
 								the City of Aliso Viejo in an attractive and safe manner while
@@ -72,172 +72,48 @@ class Board extends Component {
 
 					{this.state.display ? (
 						<OwlCarousel
-							className='team-slides owl-carousel owl-theme'
+							className='team-slides owl-carousel owl-theme my-owl'
 							{...options}>
 							<div className='team-box'>
-								<img src='/images/president.jpeg' alt='team-image' />
+								<img src='/images/prez-4.jpeg' alt='team-image' />
 
 								<div className='box-content'>
 									<div className='box-inner-content'>
-										<h3 className='title'>Steven Smitn</h3>
+										<h3 className='title'>Jessica Masters</h3>
 										<span className='post'>President</span>
-
-										<ul>
-											<li>
-												<Link href='#'>
-													<a target='_blank'>
-														<i className='icofont-facebook'></i>
-													</a>
-												</Link>
-											</li>
-											<li>
-												<Link href='#'>
-													<a target='_blank'>
-														<i className='icofont-linkedin'></i>
-													</a>
-												</Link>
-											</li>
-											<li>
-												<Link href='#'>
-													<a target='_blank'>
-														<i className='icofont-twitter'></i>
-													</a>
-												</Link>
-											</li>
-											<li>
-												<Link href='#'>
-													<a target='_blank'>
-														<i className='icofont-instagram'></i>
-													</a>
-												</Link>
-											</li>
-										</ul>
 									</div>
 								</div>
 							</div>
 
 							<div className='team-box'>
-								<img src='/images/vice-president.jpeg' alt='team-image' />
+								<img src='/images/vice-prez2.jpeg' alt='team-image' />
 
 								<div className='box-content'>
 									<div className='box-inner-content'>
-										<h3 className='title'>Alina Eva</h3>
+										<h3 className='title'>Alen Smith</h3>
 										<span className='post'>Vice President</span>
-
-										<ul>
-											<li>
-												<Link href='#'>
-													<a target='_blank'>
-														<i className='icofont-facebook'></i>
-													</a>
-												</Link>
-											</li>
-											<li>
-												<Link href='#'>
-													<a target='_blank'>
-														<i className='icofont-linkedin'></i>
-													</a>
-												</Link>
-											</li>
-											<li>
-												<Link href='#'>
-													<a target='_blank'>
-														<i className='icofont-twitter'></i>
-													</a>
-												</Link>
-											</li>
-											<li>
-												<Link href='#'>
-													<a target='_blank'>
-														<i className='icofont-instagram'></i>
-													</a>
-												</Link>
-											</li>
-										</ul>
 									</div>
 								</div>
 							</div>
 
 							<div className='team-box'>
-								<img src='/images/secretary.jpeg' alt='team-image' />
+								<img src='/images/new5.jpeg' alt='team-image' />
 
 								<div className='box-content'>
 									<div className='box-inner-content'>
-										<h3 className='title'>James Anderson</h3>
+										<h3 className='title'>Abby Anderson</h3>
 										<span className='post'>Treasurer</span>
-
-										<ul>
-											<li>
-												<Link href='#'>
-													<a target='_blank'>
-														<i className='icofont-facebook'></i>
-													</a>
-												</Link>
-											</li>
-											<li>
-												<Link href='#'>
-													<a target='_blank'>
-														<i className='icofont-linkedin'></i>
-													</a>
-												</Link>
-											</li>
-											<li>
-												<Link href='#'>
-													<a target='_blank'>
-														<i className='icofont-twitter'></i>
-													</a>
-												</Link>
-											</li>
-											<li>
-												<Link href='#'>
-													<a target='_blank'>
-														<i className='icofont-instagram'></i>
-													</a>
-												</Link>
-											</li>
-										</ul>
 									</div>
 								</div>
 							</div>
 
 							<div className='team-box'>
-								<img src='/images/treasurer.jpeg' alt='team-image' />
+								<img src='/images/new6.jpeg' alt='team-image' />
 
 								<div className='box-content'>
 									<div className='box-inner-content'>
-										<h3 className='title'>Tony Lucy</h3>
+										<h3 className='title'>Ashley Lucy</h3>
 										<span className='post'>Secretary/Asst Teasurer</span>
-
-										<ul>
-											<li>
-												<Link href='#'>
-													<a target='_blank'>
-														<i className='icofont-facebook'></i>
-													</a>
-												</Link>
-											</li>
-											<li>
-												<Link href='#'>
-													<a target='_blank'>
-														<i className='icofont-linkedin'></i>
-													</a>
-												</Link>
-											</li>
-											<li>
-												<Link href='#'>
-													<a target='_blank'>
-														<i className='icofont-twitter'></i>
-													</a>
-												</Link>
-											</li>
-											<li>
-												<Link href='#'>
-													<a target='_blank'>
-														<i className='icofont-instagram'></i>
-													</a>
-												</Link>
-											</li>
-										</ul>
 									</div>
 								</div>
 							</div>
