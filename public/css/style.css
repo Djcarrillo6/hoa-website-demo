@@ -122,6 +122,10 @@ img {
 	max-width: 100%;
 }
 
+.secondary-team-img {
+	max-width: 50%;
+}
+
 .mt-30 {
 	margin-top: 30px;
 }
@@ -1800,6 +1804,16 @@ Why We Different CSS
 /*================================================
 Team CSS
 =================================================*/
+
+/* * MY CUSTOM CSS STYLES */
+.my-owl {
+	padding-left: 3rem;
+    display: none;
+    width: 95%;
+    margin-left: 4rem;
+    z-index: 1;
+}
+
 .team-area {
 	position: relative;
 	z-index: 1;
@@ -1847,7 +1861,7 @@ Team CSS
 }
 
 .team-box img {
-	width: 100%;
+	width: 55% !important;
 	height: auto;
 	-webkit-transform: scale(1);
 	transform: scale(1);
@@ -1856,7 +1870,8 @@ Team CSS
 }
 
 .team-box .box-content {
-	padding: 20px;
+	width: 55%;
+	padding: 0px;
 	text-align: center;
 	position: absolute;
 	top: 45px;
@@ -1870,13 +1885,15 @@ Team CSS
 }
 
 .team-box .box-content .box-inner-content {
-	width: 100%;
-	padding: 20px;
+	width: 90%;
+	height: 40%;
+	padding: 10px;
 	opacity: 0;
 	background-color: #ffffff;
 	position: absolute;
 	bottom: 0;
 	left: 0;
+	margin-left: 1rem;
 	-webkit-transition: 0.5s;
 	transition: 0.5s;
 }
@@ -2017,6 +2034,16 @@ Team CSS
 	margin-top: 1rem;
 	padding-bottom: 2rem;
 }
+
+.team-member-row {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 90%;
+	height: 200px;
+	margin-left: 8rem;
+}
+
 
 /*================================================
 Story CSS
@@ -2336,6 +2363,10 @@ FAQ CSS
 
 .accordion .accordion__panel p:last-child {
 	margin-bottom: 0;
+}
+
+#faq {
+	margin-top: 100px;
 }
 
 .faq-image {

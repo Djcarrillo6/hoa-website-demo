@@ -42,11 +42,12 @@ class ManagerHighlight extends Component {
 
     render() {
         return (
+            <>
             <section id="testimonials" className="testimonial-area ptb-100 bg-image">
                 <div className="container">
                     <div className="section-title">
                         <span>Vista Mariposa</span>
-                        <h2>Meet Your <b>Community Manager</b></h2>
+                        <h2>Meet Your <b>Community</b> Management Team</h2>
                     </div>
                     <div className="testimonial-item">
                             <div className="client-image">
@@ -65,7 +66,38 @@ class ManagerHighlight extends Component {
                             </div>
                     </div>
                 </div>
+
+                {/* <div className="row team-member-row">
+                    <div className='col-md-3'>
+							<div className='single-features'>
+                            <div className="client-image">
+                                <img src="/images/small-per8.png" className="secondary-team-img" alt="image" />
+                            </div>
+								<h3>Asst Manager</h3>
+								<p>Click here to pay your HOA bill.</p>
+							</div>
+					</div>
+                    <div className='col-md-3'>
+							<div className='single-features'>
+                            <div className="client-image">
+                                <img src="/images/small-per6.png" className="secondary-team-img" alt="image" />
+                            </div>
+								<h3>Pay My Bill</h3>
+								<p>Click here to pay your HOA bill.</p>
+							</div>
+					</div>
+                    <div className='col-md-3'>
+							<div className='single-features'>
+                            <div className="client-image">
+                                <img src="/images/small-per7.png" className="secondary-team-img" alt="image" />
+                            </div>
+								<h3>Pay My Bill</h3>
+								<p>Click here to pay your HOA bill.</p>
+							</div>
+					</div>
+                </div> */}
             </section>
+            </>
         );
     }
 }

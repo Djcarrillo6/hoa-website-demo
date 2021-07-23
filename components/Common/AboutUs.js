@@ -36,7 +36,7 @@ class AboutUs extends Component {
                         
                         <div className="col-lg-6 col-md-12">
                             <div className="about-content">
-                                <span>Vista Mariposa</span>
+                                <span>Shorecliff Villages</span>
                                 <h2> <b>Community Events</b></h2>
                                 <p>Stay updated with the latest changes to your community!</p>
                                 <ul>

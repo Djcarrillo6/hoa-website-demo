@@ -3,7 +3,6 @@ import Navbar from '../components/Layouts/Navbar';
 import VideoBanner from '../components/PageBanners/VideoBanner';
 import EServices from '../components/Common/EServices';
 import AboutUs from '../components/Common/AboutUs';
-import CommunityBoard from '../components/Common/CommuityBoard';
 import Board from '../components/Common/Board';
 import ManagerHighlight from '../components/Common/ManagerHighlight';
 import CtaAreaTwo from '../components/Common/CtaAreaTwo';
@@ -19,7 +18,6 @@ class Index extends Component {
 				<VideoBanner />
 				<EServices />
 				<AboutUs />
-				<CommunityBoard />
 				<Board />
 				<ManagerHighlight />
 				<FAQ />
