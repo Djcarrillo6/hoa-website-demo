@@ -9,7 +9,7 @@ import ManagerHighlight from '../components/Common/ManagerHighlight';
 import CtaAreaTwo from '../components/Common/CtaAreaTwo';
 import Contact from '../components/Common/Contact';
 import Footer from '../components/Layouts/Footer';
-import FAQ from '../components/Common/FAQ';
+import FAQ from '../components/Common/Faq';
 
 class Index extends Component {
 	render() {
