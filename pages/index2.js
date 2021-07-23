@@ -5,7 +5,7 @@ import EServices from '../components/Common/EServices';
 import Board from '../components/Common/Board';
 import ManagerHighlight from '../components/Common/ManagerHighlight';
 import Footer from '../components/Layouts/Footer';
-import FAQ from '../components/Common/FAQ';
+import FAQ from '../components/Common/Faq';
 
 const Index2 = () => {
 	return (
