@@ -1,0 +1,34 @@
+{
+	"name": "powerstone-nextjs-demo",
+	"version": "1.1.0",
+	"description": "Ziran - React Next Multipurpose Portfolio Landing",
+	"main": "index.js",
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"export": "next export",
+		"compile-sass": "sass --watch public/css/style.scss public/css/style2.css"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"mixitup": "^3.3.1",
+		"next": "^10.0.6",
+		"react": "^16.14.0",
+		"react-accessible-accordion": "^3.3.3",
+		"react-anchor-link-smooth-scroll": "^1.0.12",
+		"react-dom": "^16.14.0",
+		"react-image-lightbox": "^5.1.1",
+		"react-modal-video": "^1.2.6",
+		"react-owl-carousel3": "^2.2.5",
+		"react-parallax": "^3.1.2",
+		"react-particles-js": "^2.7.1",
+		"react-sweet-progress": "^1.1.2",
+		"react-typing-effect": "^2.0.4",
+		"react-visibility-sensor": "^5.1.1",
+		"react-water-wave": "^1.0.5",
+		"react-wow": "^1.0.0",
+		"sass": "^1.32.5"
+	}
+}
