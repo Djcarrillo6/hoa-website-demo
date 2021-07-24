@@ -1,3 +1,4 @@
+/* * Custom Media Query For iPhone 11 */
 @media screen and (max-device-width: 375px) {
 	.my-owl {
 		padding-left: 0rem;
@@ -7,7 +8,7 @@
 		z-index: 1;
 	}
 	.single-features {
-		width: 100%
+		width: 100%;
 	}
 	.responsive-powerstone-logo {
 		width: 30%;
@@ -34,7 +35,7 @@
 		margin-left: 3rem;
 		z-index: 1;
 	}
-	
+
 	.team-box .box-content .box-inner-content .post {
 		display: block;
 		margin-top: 0px;
@@ -44,10 +45,10 @@
 		margin-top: 2.5rem;
 	}
 	.go-top {
-		margin-right: 2rem
+		margin-right: 2rem;
 	}
 	.about-content h2 {
-		margin-top: 3.5rem
+		margin-top: 3.5rem;
 	}
 	.team-box .box-content {
 		width: 60%;
@@ -59,7 +60,8 @@
 	.team-box img {
 		margin-right: 1rem;
 	}
-};
+}
+/*********************************************/
 
 /* Max width 767px */
 @media only screen and (max-width: 767px) {
@@ -72,9 +74,9 @@
 		height: 2.75rem;
 		width: 6rem;
 		margin-top: 1.75rem;
-		margin-left: .75em;
+		margin-left: 0.75em;
 	}
-	
+
 	.admin-btn a {
 		color: #ffffff;
 		font-weight: 900;
@@ -92,7 +94,7 @@
 		margin-left: 4rem;
 		z-index: 1;
 	}
-	
+
 	.team-box .box-content .box-inner-content .post {
 		display: block;
 		margin-top: 0px;
@@ -470,7 +472,7 @@
 	}
 	.team-slides.owl-theme .owl-nav {
 		margin-top: 20px;
-		margin-right: 10rem;
+		margin-right: 5rem;
 	}
 	.team-slides.owl-theme .owl-nav [class*='owl-'] {
 		position: relative;
@@ -936,10 +938,20 @@
 		right: 6px;
 	}
 	.team-box .box-content .box-inner-content {
+		width: 90%;
+		height: 35%;
+		padding: 10px;
 		opacity: 1;
+		background-color: #ffffff;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		margin-left: 0.25rem;
+		-webkit-transition: 0.5s;
+		transition: 0.5s;
 	}
 	.team-box .box-content .box-inner-content .title {
-		font-size: 20px;
+		font-size: 15px;
 	}
 	.team-slides.owl-theme .owl-nav [class*='owl-'] {
 		left: -15px;
@@ -948,7 +960,7 @@
 	}
 	.team-slides.owl-theme .owl-nav [class*='owl-'].owl-next {
 		left: auto;
-		right: -15px;
+		right: 80px;
 	}
 	.team-slides.owl-theme:hover .owl-nav [class*='owl-'],
 	.team-slides.owl-theme:focus .owl-nav [class*='owl-'] {
@@ -1045,6 +1057,17 @@
 		padding: 15px 22px;
 		font-size: 14px;
 	}
+
+	/* * Custom Styles */
+
+	#ip-ml {
+		margin-left: 11rem;
+	}
+
+	.go-top {
+		margin-right: 2rem;
+	}
+	/******************************************/
 }
 
 /* Min width 992px to Max width 1199px */

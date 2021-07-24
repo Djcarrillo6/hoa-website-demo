@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 
 const FAQFullNavbar = () => {
-
 	const [collapsed, setCollapsed] = useState(true);
 	const asystHref =
 		'https://myaccount.powerstonepm.com/_UserLogin?Mode=Register';
