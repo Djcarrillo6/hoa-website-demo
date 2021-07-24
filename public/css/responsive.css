@@ -91,7 +91,7 @@
 		padding-left: 2rem;
 		display: none;
 		width: 95%;
-		margin-left: 4rem;
+		margin-left: 3rem;
 		z-index: 1;
 	}
 
@@ -472,7 +472,7 @@
 	}
 	.team-slides.owl-theme .owl-nav {
 		margin-top: 20px;
-		margin-right: 5rem;
+		margin-right: 4rem;
 	}
 	.team-slides.owl-theme .owl-nav [class*='owl-'] {
 		position: relative;
@@ -644,6 +644,7 @@
 		border-radius: 50%;
 		height: 40px;
 		line-height: 40px;
+		margin-right: 3rem;
 	}
 	.modal-video-body {
 		padding: 0 20px;
