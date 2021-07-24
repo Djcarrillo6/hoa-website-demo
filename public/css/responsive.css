@@ -1,3 +1,66 @@
+@media screen and (max-device-width: 375px) {
+	.my-owl {
+		padding-left: 0rem;
+		display: none;
+		width: 100%;
+		margin-left: 0rem;
+		z-index: 1;
+	}
+	.single-features {
+		width: 100%
+	}
+	.responsive-powerstone-logo {
+		width: 30%;
+	}
+	.admin-btn {
+		background-color: rgb(137, 146, 101);
+		height: 2.75rem;
+		width: 6rem;
+		margin-top: 1.75rem;
+		margin-left: 8em;
+	}
+	.admin-btn a {
+		color: #ffffff;
+		font-weight: 900;
+	}
+	.team-box .box-content .box-inner-content {
+		width: 80%;
+		height: 49%;
+	}
+	.my-owl {
+		padding-left: 2rem;
+		display: none;
+		width: 95%;
+		margin-left: 3rem;
+		z-index: 1;
+	}
+	
+	.team-box .box-content .box-inner-content .post {
+		display: block;
+		margin-top: 0px;
+		color: #0e294e;
+	}
+	.faq-image {
+		margin-top: 2.5rem;
+	}
+	.go-top {
+		margin-right: 2rem
+	}
+	.about-content h2 {
+		margin-top: 3.5rem
+	}
+	.team-box .box-content {
+		width: 60%;
+		height: 98%;
+	}
+	.owl-next {
+		margin-right: 5rem !important;
+	}
+	.team-box img {
+		margin-right: 1rem;
+	}
+};
+
 /* Max width 767px */
 @media only screen and (max-width: 767px) {
 	/* * MY CUSTOM STYLES */
@@ -35,7 +98,6 @@
 		margin-top: 0px;
 		color: #0e294e;
 	}
-	
 
 	/*************************/
 	body {
