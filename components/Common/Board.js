@@ -113,7 +113,7 @@ class Board extends Component {
 								<div className='box-content'>
 									<div className='box-inner-content'>
 										<h3 className='title'>Ashley Lucy</h3>
-										<span className='post'>Secretary/Asst Teasurer</span>
+										<span className='post'>Secretary</span>
 									</div>
 								</div>
 							</div>
