@@ -1,5 +1,9 @@
 /* * Custom Media Query For iPhone 11 */
-@media screen and (max-device-width: 375px) {
+@media only screen and (max-device-width: 375px) {
+	html, body {
+		max-width: 100%;
+		overflow-x: hidden;
+	}
 	.my-owl {
 		padding-left: 0rem;
 		display: none;
@@ -63,12 +67,20 @@
 	.team-box img {
 		margin-right: 1rem;
 	}
+	.team-slides.owl-theme .owl-nav {
+		margin-top: 20px;
+		margin-right: 4.5rem !important;
+	}
 }
 /*********************************************/
 
 /* Max width 767px */
 @media only screen and (max-width: 767px) {
 	/* * MY CUSTOM STYLES */
+	html, body {
+		max-width: 100%;
+		overflow-x: hidden;
+	}
 	.responsive-powerstone-logo {
 		width: 35%;
 	}
@@ -475,7 +487,7 @@
 	}
 	.team-slides.owl-theme .owl-nav {
 		margin-top: 20px;
-		margin-right: 4rem;
+		margin-right: 9.5rem;
 	}
 	.team-slides.owl-theme .owl-nav [class*='owl-'] {
 		position: relative;
@@ -647,7 +659,7 @@
 		border-radius: 50%;
 		height: 40px;
 		line-height: 40px;
-		margin-right: 3rem;
+		margin-right: 0rem;
 	}
 	.modal-video-body {
 		padding: 0 20px;
