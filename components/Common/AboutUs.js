@@ -12,7 +12,6 @@ const AboutUs = () => {
 									<img src='/images/houses3.jpg' alt='about' />
 								</div>
 							</div>
-
 							<div className='col-6 col-lg-6 col-md-6'>
 								<div className='image'>
 									<img src='/images/houses4.jpg' alt='about' />

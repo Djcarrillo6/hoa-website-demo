@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Faq = () => {
 	return (
@@ -32,7 +33,11 @@ const Faq = () => {
 
 					<div className='col-md-6 faq-section'>
 						<div className='faq-image'>
-							<img src='/images/faq-bg.jpg' alt='img' />
+							<Image src={"/images/faq-bg.jpg"} 
+							alt={"Friendly Community Associate"}
+							width={800}
+							height={378}
+							/>
 						</div>
 					</div>
 				</div>
