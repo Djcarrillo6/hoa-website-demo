@@ -22,7 +22,7 @@ const ManagerHighlight = () => {
 					<div className='section-title'>
 						<span>Shorecliff Villages</span>
 						<h2>
-							Meet Your <b>Community</b> Management Team
+							Meet Your <b>Community</b> Manager
 						</h2>
 					</div>
 					<div className='testimonial-item'>

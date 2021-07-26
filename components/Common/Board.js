@@ -77,7 +77,7 @@ const Board = () => {
 
 							<div className='box-content'>
 								<div className='box-inner-content'>
-									<h3 className='title'>Jessica Masters</h3>
+									<h4 className='title'>Jessica Masters</h4>
 									<span className='post'>President</span>
 								</div>
 							</div>
@@ -88,7 +88,7 @@ const Board = () => {
 
 							<div className='box-content'>
 								<div className='box-inner-content'>
-									<h3 className='title'>Alen Smith</h3>
+									<h4 className='title'>Alen Smith</h4>
 									<span className='post'>Vice President</span>
 								</div>
 							</div>
@@ -99,7 +99,7 @@ const Board = () => {
 
 							<div className='box-content'>
 								<div className='box-inner-content'>
-									<h3 className='title'>Abby Anderson</h3>
+									<h4 className='title'>Abby Anderson</h4>
 									<span className='post'>Treasurer</span>
 								</div>
 							</div>
@@ -110,7 +110,7 @@ const Board = () => {
 
 							<div className='box-content'>
 								<div className='box-inner-content'>
-									<h3 className='title'>Ashley Lucy</h3>
+									<h4 className='title'>Ashley Lucy</h4>
 									<span className='post'>Secretary</span>
 								</div>
 							</div>
