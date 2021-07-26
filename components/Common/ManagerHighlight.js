@@ -47,7 +47,7 @@ const ManagerHighlight = () => {
 							</div>
 
 							<div className='client-info'>
-								<h3>Kylie Decker</h3>
+								<h4>Kylie Decker</h4>
 								<span>Shorecliff Villages Community Manager</span>
 							</div>
 						</div>
