@@ -45,7 +45,10 @@
 		margin-top: 2.5rem;
 	}
 	.go-top {
-		margin-right: 2rem;
+		margin-right: 0rem;
+	}
+	#mobile-go-top {
+		margin-right: 0rem;
 	}
 	.about-content h2 {
 		margin-top: 3.5rem;

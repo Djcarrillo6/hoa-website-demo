@@ -41,7 +41,7 @@ class GoTop extends React.Component {
     renderGoTopIcon = () => {
         if (this.state.thePosition){
             return (
-                <div className="go-top" onClick={this.scrollToTop}>
+                <div className="go-top" id="mobile-go-top" onClick={this.scrollToTop}>
                     <i className="icofont-swoosh-up"></i>
                 </div>
             )
