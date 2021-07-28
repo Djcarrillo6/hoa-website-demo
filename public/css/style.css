@@ -439,7 +439,7 @@ Navbar CSS
 }
 
 .bg-dark {
-	background-color: #0e294e;
+	background-color: #0e294e !important;
 	padding-bottom: 1rem;
 }
 
@@ -1830,7 +1830,7 @@ Team CSS
 	position: relative;
 }
 
-.team-box::before {
+/* .team-box::before {
 	content: '';
 	display: block;
 	border: 10px solid rgba(255, 255, 255, 0.3);
@@ -1858,15 +1858,15 @@ Team CSS
 	z-index: 1;
 	-webkit-transition: all 1s ease 0s;
 	transition: all 1s ease 0s;
-}
+} */
 
 .team-box img {
 	width: 55% !important;
 	height: auto;
-	-webkit-transform: scale(1);
+	/* -webkit-transform: scale(1);
 	transform: scale(1);
 	-webkit-transition: all 1s ease 0s;
-	transition: all 1s ease 0s;
+	transition: all 1s ease 0s; */
 	border: #0e294e solid 10px;
 }
 
@@ -1881,8 +1881,8 @@ Team CSS
 	right: 45px;
 	opacity: 1;
 	z-index: 2;
-	-webkit-transition: all 0.3s ease 0s;
-	transition: all 0.3s ease 0s;
+	/* -webkit-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s; */
 }
 
 .team-box .box-content .box-inner-content {
@@ -1895,8 +1895,8 @@ Team CSS
 	bottom: 0;
 	left: 0;
 	margin-left: 1rem;
-	-webkit-transition: 0.5s;
-	transition: 0.5s;
+	/* -webkit-transition: 0.5s;
+	transition: 0.5s; */
 }
 
 .team-box .box-content .box-inner-content .title {
@@ -1950,25 +1950,25 @@ Team CSS
 	left: 0;
 	bottom: 0;
 	right: 0;
-	opacity: 0;
+	opacity: 1;
 }
 
-.team-box:hover img,
+/* .team-box:hover img,
 .team-box:focus img {
 	-webkit-transform: scale(1.1);
 	transform: scale(1.1);
-}
+} */
 
-.team-box:hover .box-content,
-.team-box:focus .box-content {
+.team-box .box-content,
+.team-box .box-content {
 	top: 6px;
 	left: 6px;
 	bottom: 6px;
 	right: 6px;
 }
 
-.team-box:hover .box-content .box-inner-content,
-.team-box:focus .box-content .box-inner-content {
+.team-box .box-content .box-inner-content,
+.team-box .box-content .box-inner-content {
 	opacity: 1;
 }
 
@@ -2015,7 +2015,7 @@ Team CSS
 .team-slides.owl-theme:focus .owl-nav [class*='owl-'] {
 	left: -25px;
 	opacity: 1;
-	visibility: visible;
+	visibility: none;
 }
 
 .team-slides.owl-theme:hover .owl-nav [class*='owl-'].owl-next,
