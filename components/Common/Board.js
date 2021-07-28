@@ -8,7 +8,6 @@ const options = {
 	nav: true,
 	dots: false,
 	autoplayHoverPause: true,
-	autoplay: true,
 	margin: 30,
 	navText: [
 		"<i class='icofont-rounded-left'></i>",
@@ -105,16 +104,6 @@ const Board = () => {
 							</div>
 						</div>
 
-						<div className='team-box'>
-							<img src='/images/new6.jpeg' alt='team-image' />
-
-							<div className='box-content'>
-								<div className='box-inner-content'>
-									<h6 className='title'>Ashley Lucy</h6>
-									<span className='post'>Secretary</span>
-								</div>
-							</div>
-						</div>
 					</OwlCarousel>
 				) : (
 					''

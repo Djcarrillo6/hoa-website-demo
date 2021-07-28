@@ -71,6 +71,12 @@
 		margin-top: 20px;
 		margin-right: 4.5rem !important;
 	}
+	.team-slides.owl-theme:hover .owl-nav [class*='owl-'],
+	.team-slides.owl-theme:focus .owl-nav [class*='owl-'] {
+	left: -25px;
+	opacity: 1;
+	visibility: none;
+	}
 }
 /*********************************************/
 
@@ -1083,6 +1089,7 @@
 	.go-top {
 		margin-right: 2rem;
 	}
+	
 	/******************************************/
 }
 
