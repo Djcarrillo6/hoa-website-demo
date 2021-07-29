@@ -8,12 +8,14 @@ const EServices = () => {
 				<div className='section-title'>
 					<span>Shorecliff Villages Homeowner Services</span>
 					<h2>
-						We Strive To <b>Understand</b> Community Expectation
+						Online <b>Homeowner</b> Services
 					</h2>
 					<p>
-						Powerstone Property Management is determined to protect and maintain
-						your privacy. We are privileged to be trusted with your personal
-						information and do not wish to jeopardize that trust.
+						We’re excited about offering association services online and
+						consider it a valuable amenity for the association. At Powerstone
+						Property Management, we strive to provide quality services to help
+						make your life a little easier. We encourage you to spend more time
+						living your life and less time waiting for it by using this site to:
 					</p>
 				</div>
 
