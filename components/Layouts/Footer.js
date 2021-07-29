@@ -1,10 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Link from 'next/link';
 
 const Footer = () => {
-	const [asystHref] = useState(
-		'https://myaccount.powerstonepm.com/_UserLogin?Mode=Register',
-	);
+	const asystHref = 'https://myaccount.powerstonepm.com/_UserLogin?Mode=Register';
+
 	let currentYear = new Date().getFullYear();
 
 	return (
