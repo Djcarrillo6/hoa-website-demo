@@ -52,14 +52,14 @@ const Board = () => {
 					</div>
 					<div id='section-info'>
 						<p>
-							Shorecliff Villages Community Association (SVC), founded in 1982,
+							Shorecliff Villages Community Association (SVCA), founded in 1982,
 							is the Master Homeowners Association for most of the City Hills
 							located at Laguna Hills Drive and Moulton Parkway. Shorecliff
 							Villages Community Association’s mission is to protect, preserve
 							and maintain the Association’s twenty-one parks and slopes within
 							the City of Aliso Viejo in an attractive and safe manner while
-							striving to improve the recreational experience for AVCA dues
-							paying members. AVCA’s goal is to bring civic betterments and
+							striving to improve the recreational experience for SVCA dues
+							paying members. SVCA’s goal is to bring civic betterments and
 							social improvements to the Association’s privately-owned parks and
 							provide for the preservation of the architecture and appearance of
 							the residential communities.
@@ -103,7 +103,6 @@ const Board = () => {
 								</div>
 							</div>
 						</div>
-
 					</OwlCarousel>
 				) : (
 					''

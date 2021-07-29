@@ -71,17 +71,12 @@ const FAQFullNavbar = () => {
 							</li>
 							<li className='nav-item'>
 								<Link href='/#eservices'>
-									<a className='nav-link'>E-Services</a>
+									<a className='nav-link'>Homeowner Services</a>
 								</Link>
 							</li>
 							<li className='nav-item'>
 								<Link href='/#about'>
-									<a className='nav-link'>Events</a>
-								</Link>
-							</li>
-							<li className='nav-item'>
-								<Link href='/#announcements'>
-									<a className='nav-link'>Announcements</a>
+									<a className='nav-link'>Community News</a>
 								</Link>
 							</li>
 							<li className='nav-item'>

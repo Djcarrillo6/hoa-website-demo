@@ -1,52 +1,3 @@
-/*
-@File: Ziran Template Styles
-
-* This file contains the styling for the actual tepmlate, this
-is the file you need to edit to change the look of the
-tepmlate.
-
-This files table contents are outlined below>>>>>
-
-*******************************************
-*******************************************
-
-** - Default CSS
-** - Preloader CSS
-** - Navbar CSS
-** - Main Banner CSS
-** - Features CSS
-** - About CSS
-** - CTA CSS
-** - Services CSS
-** - Who We Are CSS
-** - Skill CSS
-** - Why We Different CSS
-** - Portfolio CSS
-** - Fun Facts CSS
-** - Team CSS
-** - Story CSS
-** - Pricing CSS
-** - Testimonial CSS
-** - Call To Action CSS
-** - FAQ CSS
-** - Blog CSS
-** - Partner CSS
-** - Subscribe CSS
-** - Contact CSS
-** - Page Title CSS
-** - Pagination CSS
-** - Sidebar CSS
-** - Blog Details CSS
-** - 404 Error CSS
-** - Footer CSS
-** - Go Top CSS
-*/
-/*================================================
-Default CSS
-=================================================*/
-/* @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i");
-@import url("https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i"); */
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 :root {
 	scroll-behavior: inherit;
@@ -1887,7 +1838,7 @@ Team CSS
 
 .team-box .box-content .box-inner-content {
 	width: 90%;
-	height: 40%;
+	height: 30%;
 	padding: 10px;
 	opacity: 0;
 	background-color: #edf0f4;
