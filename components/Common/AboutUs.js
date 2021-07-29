@@ -36,7 +36,6 @@ const AboutUs = () => {
 						<div className='about-content'>
 							<span>Shorecliff Villages</span>
 							<h2>
-								{' '}
 								<b>Community Events</b>
 							</h2>
 							<p>Stay updated with the latest changes to your community!</p>

@@ -21,7 +21,7 @@ const Faq = () => {
 							portion of the City of Laguna Hills located at Laguna Hills Drive
 							and Moulton Parkway. The staff at Shorecliff Villages knows that
 							living in an HOA can come with many questions. To visit a full
-							list of the community's FAQ section, please click{' '}
+							list of the community's FAQ section, please click
 							<a href='/faq'>here.</a>
 						</p>
 						<div class='faqbtn'>

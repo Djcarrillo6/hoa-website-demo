@@ -94,7 +94,6 @@ const Contact = () => {
 								</div>
 							</div>
 
-							{/* Not in original template! */}
 							<div className='col-md-12'>
 								<div className='form-group'>
 									<textarea
