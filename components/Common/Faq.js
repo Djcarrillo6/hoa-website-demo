@@ -33,11 +33,7 @@ const Faq = () => {
 
 					<div className='col-md-6 faq-section'>
 						<div className='faq-image'>
-							<Image src={"/images/faq-bg.jpg"} 
-							alt={"Friendly Community Associate"}
-							width={800}
-							height={378}
-							/>
+							<img src="/images/faq-law-books.jpg" alt="FAQ Rules & Regulations"/>
 						</div>
 					</div>
 				</div>
