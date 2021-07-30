@@ -21,7 +21,7 @@ const Contact = () => {
 					<div className='col-lg-4 col-md-6'>
 						<div className='contact-info'>
 							<i className='icofont-google-map'></i>
-							<p>100 Eon Ln. Mission Viejo, CA 92692</p>
+							<p>9060 Irvine Center Drive Irvine, CA 92618</p>
 						</div>
 					</div>
 
@@ -35,7 +35,7 @@ const Contact = () => {
 					<div className='col-lg-4 col-md-6' id='ip-ml'>
 						<div className='contact-info'>
 							<i className='icofont-phone'></i>
-							<p>(949) 987-5316</p>
+							<p>(949) 716-3998</p>
 						</div>
 					</div>
 				</div>

@@ -7,7 +7,6 @@ import Board from '../components/Common/Board';
 import ManagerHighlight from '../components/Common/ManagerHighlight';
 import CtaAreaTwo from '../components/Common/CtaAreaTwo';
 import Contact from '../components/Common/Contact';
-import Footer from '../components/Layouts/Footer';
 import CorporateFooter from '../components/Layouts/CorporateFooter';
 import FAQ from '../components/Common/Faq';
 
@@ -25,7 +24,6 @@ class Index extends Component {
 				<CtaAreaTwo />
 				<Contact />
 				<CorporateFooter />
-				{/* <Footer/> */}
 			</>
 		);
 	}

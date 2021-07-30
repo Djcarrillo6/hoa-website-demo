@@ -23,7 +23,9 @@ class VideoBanner extends Component {
 									<h1>
 										The Shorecliff Villages
 									</h1>
-									<h4 style={{color: '#ffffff'}}>Powerstone Property Management</h4>
+									<h6>A</h6>
+										<h4>Powerstone Property Management</h4>
+									<h6>Community</h6>
 								</div>
 							</div>
 						</div>
