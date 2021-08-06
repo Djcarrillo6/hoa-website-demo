@@ -50,7 +50,7 @@ const CorporateFooter = () => {
 						</p>
                         <div>
 							<button className='admin-btn'>
-								<Link href={asystAppAuthEndpoint}>
+								<Link href={asystHref}>
 									<a className='nav-link' target='_blank'>
 										Admin
 									</a>
