@@ -4,4 +4,4 @@
 git add . --all
 git commit -m "DC - $1"
 git status
-git push -u origin $2
+git push -u origin vercel-staging
