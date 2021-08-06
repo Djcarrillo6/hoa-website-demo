@@ -2,18 +2,15 @@ import React from 'react';
 import Link from 'next/link';
 
 const Footer = () => {
-	const asystHref = 'https://myaccount.powerstonepm.com/_UserLogin?Mode=Register';
-
-	// TODO: env.local VARIABLES
-	const client_id = env.local.client_id || '';
-	const app_id = env.local.app_id || '';
-	const deploymentURL = env.local.deploymentURL || '';
+	const client_id = env.local.NEXT_PUBLIC_CLIENT_ID;
+	const app_id = env.local.NEXT_PUBLIC_APP_ID;
+	const deploymentURL = env.local.NEXT_PUBLIC_DEPLOYMENT_URL;
+	const asystHref = 'https://myaccount.powerstonepm.com/_UserLogin?redirect_uri=https://${deploymentURL}/requestTokens&client_id=${client_id}&app_id=${app_id}';
 	const asystAppAuthEndpoint = `https://myaccount.powerstonepm.com/_AppAuth?redirect_uri=https://${deploymentURL}/requestTokens&client_id=${client_id}&app_id=${app_id}`;
 
 
 	/*
 	TODO: Create an onClick function to add parameters to the URL & navigate the user to the new URL.
-
 	* JS Add Parameter To URL Without Reloading Page.
 	<script>
 		var currentURL = window.location.protocol + "//" + window.location.host + window.location.pathname + '?arg=1';    

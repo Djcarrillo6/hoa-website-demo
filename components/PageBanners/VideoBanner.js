@@ -13,7 +13,7 @@ class VideoBanner extends Component {
 			<>
 				<div id='home' className='main-banner video-banner'>
 					<div className='video-background'>
-						<video autoPlay muted loop playsinline="true" disablePictureInPicture="true" src='/video/hoa1.mp4' />
+						<video autoPlay muted loop playsInline={true} disablePictureInPicture={true} src='/video/hoa1.mp4' />
 					</div>
 					<div className='d-table'>
 						<div className='d-table-cell'>
