@@ -4,9 +4,7 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 const Navbar = () => {
 	const [collapsed, setCollapsed] = useState(true);
-	const [asystHref] = useState(
-		'https://myaccount.powerstonepm.com/_UserLogin?Mode=Register',
-	);
+	const asystHref = 'https://myaccount.powerstonepm.com/_UserLogin';
 	const [_isMounted, set_IsMounted] = useState(false);
 	const classOne = collapsed
 		? 'collapse navbar-collapse ipadnav'

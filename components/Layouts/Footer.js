@@ -2,7 +2,21 @@ import React from 'react';
 import Link from 'next/link';
 
 const Footer = () => {
-	const asystHref = 'https://myaccount.powerstonepm.com/_UserLogin?Mode=Register';
+	const client_id = env.local.NEXT_PUBLIC_CLIENT_ID;
+	const app_id = env.local.NEXT_PUBLIC_APP_ID;
+	const deploymentURL = env.local.NEXT_PUBLIC_DEPLOYMENT_URL;
+	const asystHref = 'https://myaccount.powerstonepm.com/_UserLogin?redirect_uri=https://${deploymentURL}/requestTokens&client_id=${client_id}&app_id=${app_id}';
+	const asystAppAuthEndpoint = `https://myaccount.powerstonepm.com/_AppAuth?redirect_uri=https://${deploymentURL}/requestTokens&client_id=${client_id}&app_id=${app_id}`;
+
+
+	/*
+	TODO: Create an onClick function to add parameters to the URL & navigate the user to the new URL.
+	* JS Add Parameter To URL Without Reloading Page.
+	<script>
+		var currentURL = window.location.protocol + "//" + window.location.host + window.location.pathname + '?arg=1';    
+		window.history.pushState({ path: currentURL }, '', currentURL);
+	</script>
+	*/
 
 	let currentYear = new Date().getFullYear();
 
@@ -48,6 +62,13 @@ const Footer = () => {
 										Admin
 									</a>
 								</Link>
+								{/* 
+								<Link href={asystAppAuthEndpoint}>
+									<a className='nav-link' target='_blank'>
+										Admin
+									</a>
+								</Link>
+								 */}
 							</button>
 						</div>
 					</div>

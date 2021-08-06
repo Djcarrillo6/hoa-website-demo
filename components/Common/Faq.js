@@ -1,6 +1,5 @@
 import React from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
 
 const Faq = () => {
 	return (
@@ -24,7 +23,7 @@ const Faq = () => {
 							list of the community's FAQ section, please click
 							<a href='/faq'>here.</a>
 						</p>
-						<div class='faqbtn'>
+						<div className='faqbtn'>
 							<Link href='/faqfull'>
 								<button className='btn btn-primary'>FAQ</button>
 							</Link>

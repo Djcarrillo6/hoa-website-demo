@@ -1,10 +1,20 @@
 import React from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
 
 const CorporateFooter = () => {
+    
+    /*
+	    * JS Add Parameter To URL Without Reloading Page.
+		var currentURL = window.location.protocol + "//" + window.location.host + window.location.pathname + '?arg=1';    
+		window.history.pushState({ path: currentURL }, '', currentURL);
+	*/
 
-    const asystHref = 'https://myaccount.powerstonepm.com/_UserLogin?Mode=Register';
+    const client_id = process.env.NEXT_PUBLIC_CLIENT_ID;
+    const app_id = process.env.NEXT_PUBLIC_APP_ID;
+    const deploymentURL = process.env.NEXT_PUBLIC_DEPLOYMENT_URL;
+    const asystHref = 'https://myaccount.powerstonepm.com/_UserLogin';
+    const asystAppAuthEndpoint = `https://myaccount.powerstonepm.com/_AppAuth?redirect_uri=https://${deploymentURL}/requestTokens&client_id=${client_id}&app_id=${app_id}`;
+
     let currentYear = new Date().getFullYear();
 
 
@@ -40,7 +50,7 @@ const CorporateFooter = () => {
 						</p>
                         <div>
 							<button className='admin-btn'>
-								<Link href={asystHref}>
+								<Link href={asystAppAuthEndpoint}>
 									<a className='nav-link' target='_blank'>
 										Admin
 									</a>
@@ -143,7 +153,6 @@ const CorporateFooter = () => {
                         <p className="location-font">
                             - Bay Area Office
                         </p>
-
 					</div>
 				</div>
 			</div>
