@@ -5,15 +5,16 @@ const CorporateFooter = () => {
     
     /*
 	    * JS Add Parameter To URL Without Reloading Page.
-		var currentURL = window.location.protocol + "//" + window.location.host + window.location.pathname + '?arg=1';    
-		window.history.pushState({ path: currentURL }, '', currentURL);
+		* var currentURL = window.location.protocol + "//" + window.location.host + window.location.pathname + '?arg=1';    
+		* window.history.pushState({ path: currentURL }, '', currentURL);
 	*/
 
     const client_id = process.env.NEXT_PUBLIC_CLIENT_ID;
     const app_id = process.env.NEXT_PUBLIC_APP_ID;
     const deploymentURL = process.env.NEXT_PUBLIC_DEPLOYMENT_URL;
+    
     const asystHref = 'https://myaccount.powerstonepm.com/_UserLogin';
-    const asystAppAuthEndpoint = `https://myaccount.powerstonepm.com/_AppAuth?redirect_uri=https://${deploymentURL}/requestTokens&client_id=${client_id}&app_id=${app_id}`;
+    const asystAppAuthEndpoint = `https://myaccount.powerstonepm.com/_AppAuth?redirect_uri=https://${deploymentURL}/api/requestTokens&client_id=${client_id}&app_id=${app_id}`;
 
     let currentYear = new Date().getFullYear();
 
