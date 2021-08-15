@@ -1,6 +1,7 @@
 /* * Custom Media Query For iPhone 11 */
 @media only screen and (max-device-width: 375px) {
-	html, body {
+	html,
+	body {
 		max-width: 100%;
 		overflow-x: hidden;
 	}
@@ -73,125 +74,125 @@
 	}
 	.team-slides.owl-theme:hover .owl-nav [class*='owl-'],
 	.team-slides.owl-theme:focus .owl-nav [class*='owl-'] {
-	left: -25px;
-	opacity: 1;
-	visibility: none;
+		left: -25px;
+		opacity: 1;
+		visibility: none;
 	}
 	/*================================================
 Corporate Footer CSS
 =================================================*/
-.corporate-footer-area {
-	background-color: #0e294e;
+	.corporate-footer-area {
+		background-color: #0e294e;
+	}
+	.corporate-footer-area {
+		background-color: #0e294e;
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
 
-}
-.corporate-footer-area {
-	background-color: #0e294e;
-	padding-top: 50px;
-	padding-bottom: 50px;
-}
+	.corporate-footer-area p {
+		color: #ffffff;
+		font-family: 'PT Sans', sans-serif;
+		font-weight: 500;
+		padding-right: 1rem;
+		margin-bottom: 0px;
+	}
 
-.corporate-footer-area p {
-	color: #ffffff;
-	font-family: 'PT Sans', sans-serif;
-	font-weight: 500;
-	padding-right: 1rem;
-	margin-bottom: 0px;
-}
+	.corporate-footer-area p i {
+		padding-right: 1rem;
+	}
 
-.corporate-footer-area p i {
-	padding-right: 1rem;
-}
+	.corporate-footer-area p a {
+		display: inline-block;
+		color: #ffffff;
+	}
 
-.corporate-footer-area p a {
-	display: inline-block;
-	color: #ffffff;
-}
+	.corporate-footer-area p a:hover,
+	.corporate-footer-area p a:focus {
+		color: #0e294e;
+	}
 
-.corporate-footer-area p a:hover,
-.corporate-footer-area p a:focus {
-	color: #0e294e;
-}
+	.corporate-footer-area ul {
+		text-align: right;
+		padding: 0;
+		list-style-type: none;
+		margin: 0;
+		margin-right: 19rem;
+		margin-top: 2rem;
+	}
 
-.corporate-footer-area ul {
-	text-align: right;
-	padding: 0;
-	list-style-type: none;
-	margin: 0;
-	margin-right: 19rem;
-	margin-top: 2rem;
-}
+	.corporate-footer-area ul li {
+		display: inline-block;
+		margin-left: 6px;
+	}
 
-.corporate-footer-area ul li {
-	display: inline-block;
-	margin-left: 6px;
-}
+	.corporate-footer-area ul li a {
+		height: 35px;
+		font-size: 14px;
+		width: 35px;
+		text-align: center;
+		line-height: 35px;
+		-webkit-transition: 0.5s;
+		transition: 0.5s;
+		color: #000000;
+		border-radius: 50%;
+		background: #ffffff;
+	}
 
-.corporate-footer-area ul li a {
-	height: 35px;
-	font-size: 14px;
-	width: 35px;
-	text-align: center;
-	line-height: 35px;
-	-webkit-transition: 0.5s;
-	transition: 0.5s;
-	color: #000000;
-	border-radius: 50%;
-	background: #ffffff;
-}
+	.corporate-footer-area ul li a:hover,
+	.corporate-footer-area ul li a:focus {
+		-webkit-transform: translateY(-5px);
+		transform: translateY(-5px);
+		background-color: #0e294e;
+		color: #ffffff;
+	}
 
-.corporate-footer-area ul li a:hover,
-.corporate-footer-area ul li a:focus {
-	-webkit-transform: translateY(-5px);
-	transform: translateY(-5px);
-	background-color: #0e294e;
-	color: #ffffff;
-}
+	.corporate-admin-btn {
+		background-color: rgb(137, 146, 101);
+		height: 2.75rem;
+		width: 6rem;
+		margin-right: 3rem;
+	}
 
-.corporate-admin-btn {
-	background-color: rgb(137, 146, 101);
-	height: 2.75rem;
-	width: 6rem;
-	margin-right: 3rem;
-}
+	.corporate-admin-btn a {
+		color: #ffffff;
+		font-weight: 900;
+	}
 
-.corporate-admin-btn a {
-	color: #ffffff;
-	font-weight: 900;
-}
+	.footer-col-header {
+		color: #ffffff;
+		font-family: 'PT Sans', sans-serif;
+		font-weight: 900;
+		font-size: 19px;
+	}
 
-.footer-col-header {
-	color: #ffffff;
-	font-family: 'PT Sans', sans-serif;
-	font-weight: 900;
-	font-size: 19px;
-}
+	.corporate-social-links {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		margin-left: 4rem !important;
+	}
 
-.corporate-social-links {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-	margin-left: 4rem !important;
-}
+	.corp-row {
+		margin-left: 2rem;
+	}
 
-.corp-row {
-	margin-left: 2rem;
-}
-
-.location-font {
-	color: #ffffff;
-	font-family: 'PT Sans', sans-serif;
-	font-weight: 500;
-	margin-bottom: 0px;
-	padding-right: 0px !important;
-}
+	.location-font {
+		color: #ffffff;
+		font-family: 'PT Sans', sans-serif;
+		font-weight: 500;
+		margin-bottom: 0px;
+		padding-right: 0px !important;
+	}
 }
 /*********************************************/
 
 /* * Max width 767px */
 @media only screen and (max-width: 767px) {
 	/* * MY CUSTOM STYLES */
-	html, body {
+	html,
+	body {
 		max-width: 100%;
 		overflow-x: hidden;
 	}
@@ -244,6 +245,7 @@ Corporate Footer CSS
 	.section-title span {
 		font-size: 13px;
 		margin-bottom: 10px;
+		padding-top: 2rem;
 	}
 	.section-title h2 {
 		font-size: 28px;
@@ -793,111 +795,110 @@ Corporate Footer CSS
 	/*================================================
 Corporate Footer CSS
 =================================================*/
-.corporate-footer-area {
-	background-color: #0e294e;
+	.corporate-footer-area {
+		background-color: #0e294e;
+	}
+	.corporate-footer-area {
+		background-color: #0e294e;
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
 
-}
-.corporate-footer-area {
-	background-color: #0e294e;
-	padding-top: 50px;
-	padding-bottom: 50px;
-}
+	.corporate-footer-area p {
+		color: #ffffff;
+		font-family: 'PT Sans', sans-serif;
+		font-weight: 500;
+		padding-right: 1rem;
+		margin-bottom: 0px;
+	}
 
-.corporate-footer-area p {
-	color: #ffffff;
-	font-family: 'PT Sans', sans-serif;
-	font-weight: 500;
-	padding-right: 1rem;
-	margin-bottom: 0px;
-}
+	.corporate-footer-area p i {
+		padding-right: 1rem;
+	}
 
-.corporate-footer-area p i {
-	padding-right: 1rem;
-}
+	.corporate-footer-area p a {
+		display: inline-block;
+		color: #ffffff;
+	}
 
-.corporate-footer-area p a {
-	display: inline-block;
-	color: #ffffff;
-}
+	.corporate-footer-area p a:hover,
+	.corporate-footer-area p a:focus {
+		color: #0e294e;
+	}
 
-.corporate-footer-area p a:hover,
-.corporate-footer-area p a:focus {
-	color: #0e294e;
-}
+	.corporate-footer-area ul {
+		text-align: right;
+		padding: 0;
+		list-style-type: none;
+		margin: 0;
+		margin-right: 19rem;
+		margin-top: 2rem;
+	}
 
-.corporate-footer-area ul {
-	text-align: right;
-	padding: 0;
-	list-style-type: none;
-	margin: 0;
-	margin-right: 19rem;
-	margin-top: 2rem;
-}
+	.corporate-footer-area ul li {
+		display: inline-block;
+		margin-left: 6px;
+	}
 
-.corporate-footer-area ul li {
-	display: inline-block;
-	margin-left: 6px;
-}
+	.corporate-footer-area ul li a {
+		height: 35px;
+		font-size: 14px;
+		width: 35px;
+		text-align: center;
+		line-height: 35px;
+		-webkit-transition: 0.5s;
+		transition: 0.5s;
+		color: #000000;
+		border-radius: 50%;
+		background: #ffffff;
+	}
 
-.corporate-footer-area ul li a {
-	height: 35px;
-	font-size: 14px;
-	width: 35px;
-	text-align: center;
-	line-height: 35px;
-	-webkit-transition: 0.5s;
-	transition: 0.5s;
-	color: #000000;
-	border-radius: 50%;
-	background: #ffffff;
-}
+	.corporate-footer-area ul li a:hover,
+	.corporate-footer-area ul li a:focus {
+		-webkit-transform: translateY(-5px);
+		transform: translateY(-5px);
+		background-color: #0e294e;
+		color: #ffffff;
+	}
 
-.corporate-footer-area ul li a:hover,
-.corporate-footer-area ul li a:focus {
-	-webkit-transform: translateY(-5px);
-	transform: translateY(-5px);
-	background-color: #0e294e;
-	color: #ffffff;
-}
+	.corporate-admin-btn {
+		background-color: rgb(137, 146, 101);
+		height: 2.75rem;
+		width: 6rem;
+		margin-right: 3rem;
+	}
 
-.corporate-admin-btn {
-	background-color: rgb(137, 146, 101);
-	height: 2.75rem;
-	width: 6rem;
-	margin-right: 3rem;
-}
+	.corporate-admin-btn a {
+		color: #ffffff;
+		font-weight: 900;
+	}
 
-.corporate-admin-btn a {
-	color: #ffffff;
-	font-weight: 900;
-}
+	.footer-col-header {
+		color: #ffffff;
+		font-family: 'PT Sans', sans-serif;
+		font-weight: 900;
+		font-size: 19px;
+	}
 
-.footer-col-header {
-	color: #ffffff;
-	font-family: 'PT Sans', sans-serif;
-	font-weight: 900;
-	font-size: 19px;
-}
+	.corporate-social-links {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		margin-left: 3rem !important;
+	}
 
-.corporate-social-links {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-	margin-left: 3rem !important;
-}
+	.corp-row {
+		margin-left: 2rem;
+	}
 
-.corp-row {
-	margin-left: 2rem;
-}
-
-.location-font {
-	color: #ffffff;
-	font-family: 'PT Sans', sans-serif;
-	font-weight: 500;
-	margin-bottom: 0px;
-	padding-right: 0px !important;
-}
+	.location-font {
+		color: #ffffff;
+		font-family: 'PT Sans', sans-serif;
+		font-weight: 500;
+		margin-bottom: 0px;
+		padding-right: 0px !important;
+	}
 }
 
 /* * Min width 768px to Max width 991px */
@@ -1305,115 +1306,114 @@ Corporate Footer CSS
 	.go-top {
 		margin-right: 2rem;
 	}
-/*================================================
+	/*================================================
 Corporate Footer CSS
 =================================================*/
-.corporate-footer-area {
-	background-color: #0e294e;
+	.corporate-footer-area {
+		background-color: #0e294e;
+	}
+	.corporate-footer-area {
+		background-color: #0e294e;
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
 
-}
-.corporate-footer-area {
-	background-color: #0e294e;
-	padding-top: 50px;
-	padding-bottom: 50px;
-}
+	.corporate-footer-area p {
+		color: #ffffff;
+		font-family: 'PT Sans', sans-serif;
+		font-weight: 500;
+		padding-right: 1rem;
+		margin-bottom: 0px;
+	}
 
-.corporate-footer-area p {
-	color: #ffffff;
-	font-family: 'PT Sans', sans-serif;
-	font-weight: 500;
-	padding-right: 1rem;
-	margin-bottom: 0px;
-}
+	.corporate-footer-area p i {
+		padding-right: 1rem;
+	}
 
-.corporate-footer-area p i {
-	padding-right: 1rem;
-}
+	.corporate-footer-area p a {
+		display: inline-block;
+		color: #ffffff;
+	}
 
-.corporate-footer-area p a {
-	display: inline-block;
-	color: #ffffff;
-}
+	.corporate-footer-area p a:hover,
+	.corporate-footer-area p a:focus {
+		color: #0e294e;
+	}
 
-.corporate-footer-area p a:hover,
-.corporate-footer-area p a:focus {
-	color: #0e294e;
-}
+	.corporate-footer-area ul {
+		text-align: right;
+		padding: 0;
+		list-style-type: none;
+		margin: 0;
+		margin-right: 19rem;
+		margin-top: 2rem;
+	}
 
-.corporate-footer-area ul {
-	text-align: right;
-	padding: 0;
-	list-style-type: none;
-	margin: 0;
-	margin-right: 19rem;
-	margin-top: 2rem;
-}
+	.corporate-footer-area ul li {
+		display: inline-block;
+		margin-left: 6px;
+	}
 
-.corporate-footer-area ul li {
-	display: inline-block;
-	margin-left: 6px;
-}
+	.corporate-footer-area ul li a {
+		height: 35px;
+		font-size: 14px;
+		width: 35px;
+		text-align: center;
+		line-height: 35px;
+		-webkit-transition: 0.5s;
+		transition: 0.5s;
+		color: #000000;
+		border-radius: 50%;
+		background: #ffffff;
+	}
 
-.corporate-footer-area ul li a {
-	height: 35px;
-	font-size: 14px;
-	width: 35px;
-	text-align: center;
-	line-height: 35px;
-	-webkit-transition: 0.5s;
-	transition: 0.5s;
-	color: #000000;
-	border-radius: 50%;
-	background: #ffffff;
-}
+	.corporate-footer-area ul li a:hover,
+	.corporate-footer-area ul li a:focus {
+		-webkit-transform: translateY(-5px);
+		transform: translateY(-5px);
+		background-color: #0e294e;
+		color: #ffffff;
+	}
 
-.corporate-footer-area ul li a:hover,
-.corporate-footer-area ul li a:focus {
-	-webkit-transform: translateY(-5px);
-	transform: translateY(-5px);
-	background-color: #0e294e;
-	color: #ffffff;
-}
+	.corporate-admin-btn {
+		background-color: rgb(137, 146, 101);
+		height: 2.75rem;
+		width: 6rem;
+		margin-right: 3rem;
+	}
 
-.corporate-admin-btn {
-	background-color: rgb(137, 146, 101);
-	height: 2.75rem;
-	width: 6rem;
-	margin-right: 3rem;
-}
+	.corporate-admin-btn a {
+		color: #ffffff;
+		font-weight: 900;
+	}
 
-.corporate-admin-btn a {
-	color: #ffffff;
-	font-weight: 900;
-}
+	.footer-col-header {
+		color: #ffffff;
+		font-family: 'PT Sans', sans-serif;
+		font-weight: 900;
+		font-size: 19px;
+	}
 
-.footer-col-header {
-	color: #ffffff;
-	font-family: 'PT Sans', sans-serif;
-	font-weight: 900;
-	font-size: 19px;
-}
+	.corporate-social-links {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		margin-left: 3rem !important;
+	}
 
-.corporate-social-links {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-	margin-left: 3rem !important;
-}
+	.corp-row {
+		margin-left: 2rem;
+	}
 
-.corp-row {
-	margin-left: 2rem;
-}
+	.location-font {
+		color: #ffffff;
+		font-family: 'PT Sans', sans-serif;
+		font-weight: 500;
+		margin-bottom: 0px;
+		padding-right: 0px !important;
+	}
 
-.location-font {
-	color: #ffffff;
-	font-family: 'PT Sans', sans-serif;
-	font-weight: 500;
-	margin-bottom: 0px;
-	padding-right: 0px !important;
-}
-	
 	/******************************************/
 }
 
@@ -1455,222 +1455,220 @@ Corporate Footer CSS
 	/*================================================
 Corporate Footer CSS
 =================================================*/
-.corporate-footer-area {
-	background-color: #0e294e;
+	.corporate-footer-area {
+		background-color: #0e294e;
+	}
+	.corporate-footer-area {
+		background-color: #0e294e;
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
 
-}
-.corporate-footer-area {
-	background-color: #0e294e;
-	padding-top: 50px;
-	padding-bottom: 50px;
-}
+	.corporate-footer-area p {
+		color: #ffffff;
+		font-family: 'PT Sans', sans-serif;
+		font-weight: 500;
+		padding-right: 1rem;
+		margin-bottom: 0px;
+	}
 
-.corporate-footer-area p {
-	color: #ffffff;
-	font-family: 'PT Sans', sans-serif;
-	font-weight: 500;
-	padding-right: 1rem;
-	margin-bottom: 0px;
-}
+	.corporate-footer-area p i {
+		padding-right: 1rem;
+	}
 
-.corporate-footer-area p i {
-	padding-right: 1rem;
-}
+	.corporate-footer-area p a {
+		display: inline-block;
+		color: #ffffff;
+	}
 
-.corporate-footer-area p a {
-	display: inline-block;
-	color: #ffffff;
-}
+	.corporate-footer-area p a:hover,
+	.corporate-footer-area p a:focus {
+		color: #0e294e;
+	}
 
-.corporate-footer-area p a:hover,
-.corporate-footer-area p a:focus {
-	color: #0e294e;
-}
+	.corporate-footer-area ul {
+		text-align: right;
+		padding: 0;
+		list-style-type: none;
+		margin: 0;
+		margin-right: 19rem;
+		margin-top: 2rem;
+	}
 
-.corporate-footer-area ul {
-	text-align: right;
-	padding: 0;
-	list-style-type: none;
-	margin: 0;
-	margin-right: 19rem;
-	margin-top: 2rem;
-}
+	.corporate-footer-area ul li {
+		display: inline-block;
+		margin-left: 6px;
+	}
 
-.corporate-footer-area ul li {
-	display: inline-block;
-	margin-left: 6px;
-}
+	.corporate-footer-area ul li a {
+		height: 35px;
+		font-size: 14px;
+		width: 35px;
+		text-align: center;
+		line-height: 35px;
+		-webkit-transition: 0.5s;
+		transition: 0.5s;
+		color: #000000;
+		border-radius: 50%;
+		background: #ffffff;
+	}
 
-.corporate-footer-area ul li a {
-	height: 35px;
-	font-size: 14px;
-	width: 35px;
-	text-align: center;
-	line-height: 35px;
-	-webkit-transition: 0.5s;
-	transition: 0.5s;
-	color: #000000;
-	border-radius: 50%;
-	background: #ffffff;
-}
+	.corporate-footer-area ul li a:hover,
+	.corporate-footer-area ul li a:focus {
+		-webkit-transform: translateY(-5px);
+		transform: translateY(-5px);
+		background-color: #0e294e;
+		color: #ffffff;
+	}
 
-.corporate-footer-area ul li a:hover,
-.corporate-footer-area ul li a:focus {
-	-webkit-transform: translateY(-5px);
-	transform: translateY(-5px);
-	background-color: #0e294e;
-	color: #ffffff;
-}
+	.corporate-admin-btn {
+		background-color: rgb(137, 146, 101);
+		height: 2.75rem;
+		width: 6rem;
+		margin-right: 3rem;
+	}
 
-.corporate-admin-btn {
-	background-color: rgb(137, 146, 101);
-	height: 2.75rem;
-	width: 6rem;
-	margin-right: 3rem;
-}
+	.corporate-admin-btn a {
+		color: #ffffff;
+		font-weight: 900;
+	}
 
-.corporate-admin-btn a {
-	color: #ffffff;
-	font-weight: 900;
-}
+	.footer-col-header {
+		color: #ffffff;
+		font-family: 'PT Sans', sans-serif;
+		font-weight: 900;
+		font-size: 19px;
+	}
 
-.footer-col-header {
-	color: #ffffff;
-	font-family: 'PT Sans', sans-serif;
-	font-weight: 900;
-	font-size: 19px;
-}
+	.corporate-social-links {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		margin-left: 3rem !important;
+	}
 
-.corporate-social-links {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-	margin-left: 3rem !important;
-}
+	.corp-row {
+		margin-left: 2rem;
+	}
 
-.corp-row {
-	margin-left: 2rem;
-}
-
-.location-font {
-	color: #ffffff;
-	font-family: 'PT Sans', sans-serif;
-	font-weight: 500;
-	margin-bottom: 0px;
-	padding-right: 0px !important;
-}
+	.location-font {
+		color: #ffffff;
+		font-family: 'PT Sans', sans-serif;
+		font-weight: 500;
+		margin-bottom: 0px;
+		padding-right: 0px !important;
+	}
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1649px) {
-		/*================================================
+	/*================================================
 Corporate Footer CSS
 =================================================*/
-.corporate-footer-area {
-	background-color: #0e294e;
+	.corporate-footer-area {
+		background-color: #0e294e;
+	}
+	.corporate-footer-area {
+		background-color: #0e294e;
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
 
-}
-.corporate-footer-area {
-	background-color: #0e294e;
-	padding-top: 50px;
-	padding-bottom: 50px;
-}
+	.corporate-footer-area p {
+		color: #ffffff;
+		font-family: 'PT Sans', sans-serif;
+		font-weight: 500;
+		padding-right: 1rem;
+		margin-bottom: 0px;
+	}
 
-.corporate-footer-area p {
-	color: #ffffff;
-	font-family: 'PT Sans', sans-serif;
-	font-weight: 500;
-	padding-right: 1rem;
-	margin-bottom: 0px;
-}
+	.corporate-footer-area p i {
+		padding-right: 1rem;
+	}
 
-.corporate-footer-area p i {
-	padding-right: 1rem;
-}
+	.corporate-footer-area p a {
+		display: inline-block;
+		color: #ffffff;
+	}
 
-.corporate-footer-area p a {
-	display: inline-block;
-	color: #ffffff;
-}
+	.corporate-footer-area p a:hover,
+	.corporate-footer-area p a:focus {
+		color: #0e294e;
+	}
 
-.corporate-footer-area p a:hover,
-.corporate-footer-area p a:focus {
-	color: #0e294e;
-}
+	.corporate-footer-area ul {
+		text-align: right;
+		padding: 0;
+		list-style-type: none;
+		margin: 0;
+		margin-right: 19rem;
+		margin-top: 2rem;
+	}
 
-.corporate-footer-area ul {
-	text-align: right;
-	padding: 0;
-	list-style-type: none;
-	margin: 0;
-	margin-right: 19rem;
-	margin-top: 2rem;
-}
+	.corporate-footer-area ul li {
+		display: inline-block;
+		margin-left: 6px;
+	}
 
-.corporate-footer-area ul li {
-	display: inline-block;
-	margin-left: 6px;
-}
+	.corporate-footer-area ul li a {
+		height: 35px;
+		font-size: 14px;
+		width: 35px;
+		text-align: center;
+		line-height: 35px;
+		-webkit-transition: 0.5s;
+		transition: 0.5s;
+		color: #000000;
+		border-radius: 50%;
+		background: #ffffff;
+	}
 
-.corporate-footer-area ul li a {
-	height: 35px;
-	font-size: 14px;
-	width: 35px;
-	text-align: center;
-	line-height: 35px;
-	-webkit-transition: 0.5s;
-	transition: 0.5s;
-	color: #000000;
-	border-radius: 50%;
-	background: #ffffff;
-}
+	.corporate-footer-area ul li a:hover,
+	.corporate-footer-area ul li a:focus {
+		-webkit-transform: translateY(-5px);
+		transform: translateY(-5px);
+		background-color: #0e294e;
+		color: #ffffff;
+	}
 
-.corporate-footer-area ul li a:hover,
-.corporate-footer-area ul li a:focus {
-	-webkit-transform: translateY(-5px);
-	transform: translateY(-5px);
-	background-color: #0e294e;
-	color: #ffffff;
-}
+	.corporate-admin-btn {
+		background-color: rgb(137, 146, 101);
+		height: 2.75rem;
+		width: 6rem;
+		margin-right: 3rem;
+	}
 
-.corporate-admin-btn {
-	background-color: rgb(137, 146, 101);
-	height: 2.75rem;
-	width: 6rem;
-	margin-right: 3rem;
-}
+	.corporate-admin-btn a {
+		color: #ffffff;
+		font-weight: 900;
+	}
 
-.corporate-admin-btn a {
-	color: #ffffff;
-	font-weight: 900;
-}
+	.footer-col-header {
+		color: #ffffff;
+		font-family: 'PT Sans', sans-serif;
+		font-weight: 900;
+		font-size: 19px;
+	}
 
-.footer-col-header {
-	color: #ffffff;
-	font-family: 'PT Sans', sans-serif;
-	font-weight: 900;
-	font-size: 19px;
-}
+	.corporate-social-links {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		margin-left: 3rem !important;
+	}
 
-.corporate-social-links {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-	margin-left: 3rem !important;
-}
+	.corp-row {
+		margin-left: 2rem;
+	}
 
-.corp-row {
-	margin-left: 2rem;
-}
-
-.location-font {
-	color: #ffffff;
-	font-family: 'PT Sans', sans-serif;
-	font-weight: 500;
-	margin-bottom: 0px;
-	padding-right: 0px !important;
-}
+	.location-font {
+		color: #ffffff;
+		font-family: 'PT Sans', sans-serif;
+		font-weight: 500;
+		margin-bottom: 0px;
+		padding-right: 0px !important;
+	}
 }
 
 /* Min width 1650px */
