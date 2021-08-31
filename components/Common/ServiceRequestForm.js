@@ -4,7 +4,7 @@ const ServiceRequestForm = () => {
     return (
         <>  
             <div className='container contact-area ptb-100'>
-                <h2 className='section-title'>Service Request Form</h2>
+                <h1 className='section-title'>Service Request Form</h1>
                 <div className='contact-form'>
                     <form id='contactForm'>
                         <div className='row'>
@@ -26,11 +26,11 @@ const ServiceRequestForm = () => {
                             </p>
                             <p className='col-lg-6 col-md-12'>
                                 <label htmlFor="owner" >Are you the owner?</label>
-                                <p className={styles.checkbox}>
-                                    <input type="checkbox" name="owner" value="yes" className={styles.yes} />
-                                    <label htmlFor="yes" className={styles.selector} >Yes</label>
-                                    <input type="checkbox" name="owner" value="no" className={styles.no} />
-                                    <label htmlFor="no" className={styles.selector} >No</label>
+                                <p className='service-checkbox'>
+                                    <input type="checkbox" name="owner" value="yes" className='checkbox-value' />
+                                    <label htmlFor="yes" className='checkbox-label' >Yes</label>
+                                    <input type="checkbox" name="owner" value="no" className='checkbox-value' />
+                                    <label htmlFor="no" className='checkbox-label' >No</label>
                                 </p>
                             </p>
                         </div>
@@ -39,14 +39,18 @@ const ServiceRequestForm = () => {
                                 <label htmlFor="address">Address or Unit #</label>
                                 <input type="text" name="address" className='form-control' />
                             </p>
-                            <div className='col-lg-12'>
+                            <p className='col-lg-12'>
                                 <label htmlFor="city">City</label>
                                 <input type="text" name="city" className='form-control' />
+                            </p>
+                            <p className='col-lg-12'>
                                 <label htmlFor="state" >State/Province</label>
                                 <input type="text" name="address" className='form-control' />
+                            </p>
+                            <p className='col-lg-12'>
                                 <label htmlFor="zip" >Zip/Postal</label>
                                 <input type="text" name="address" className='form-control' />
-                            </div>
+                            </p>
                         </div>
                         <div className='row'>
                             <p className='col-lg-6 col-md-12'>
@@ -65,20 +69,27 @@ const ServiceRequestForm = () => {
                                 <label htmlFor="timeContact">Best Time to Contact? </label>
                                 <input type="text" name="timeContact" className='form-control'/>
                             </p>
+                            <p className='col-lg-12'>
+                                <label htmlFor="requestCatetory">Category of Request</label>
+                                <div>
+                                    <select className='form-control'>
+                                        <option selected disabled>Select Below</option>
+                                        <option value="General Question" selected>General Question</option>
+                                        <option value="LandScape Question">LandScape Question</option>
+                                        <option value="Transponder Question">Transponder Question</option>
+                                        <option value="Maintenance Item">Maintenance Item</option>
+                                        <option value="Recreation Question">Recreation Question</option>
+                                    </select>
+                                </div>
+                            </p>
+                            <p className='col-lg-12'>
+                                <label htmlFor="issue">Describe the Issue</label>
+                                <textarea id='message' rows='10' className='form-control' name="issue" />
+                            </p>
                         </div>
                         <div className= 'row'>
-                            <label htmlFor="requestCatetory">Category of Request</label>
-                            <select className='col-lg-12 form-control'>
-                                <option value="General Question" selected>General Question</option>
-                                <option value="LandScape Question">LandScape Question</option>
-                                <option value="Transponder Question">Transponder Question</option>
-                                <option value="Maintenance Item">Maintenance Item</option>
-                                <option value="Recreation Question">Recreation Question</option>
-                            </select>
-                            <label htmlFor="issue">Describe the Issue</label>
-                            <textarea id='message' className='col-lg-12 text-center form-control' name="issue" />
                         </div>
-                        <button type='submit' className='col-md-4 btn btn-primary'>Submit</button>
+                            <button type='submit' className='col-lg-6 col-md-8 service-button btn btn-primary'>Submit</button>
                     </form>
                 </div>
             </div>

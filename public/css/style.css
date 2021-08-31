@@ -252,6 +252,16 @@ img {
 	margin: 18px auto 0;
 }
 
+.service-button {
+	margin: 1rem auto;
+	display: block;
+}
+
+.checkbox-value,
+.checkbox-label { 
+	margin-right: 5px;
+}
+
 /*================================================
 Preloader CSS
 =================================================*/
