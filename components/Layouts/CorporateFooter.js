@@ -65,7 +65,7 @@ const CorporateFooter = () => {
                             </p>
                             <br/>
                             <p>
-                                We proudly serve all of Souther California including the following:
+                                We proudly serve all of Southern California including the following:
                             </p>
                             <br/>
                             <p>
