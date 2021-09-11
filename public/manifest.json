@@ -1,0 +1,23 @@
+{
+	"name": "Powerstone PWA Demo",
+	"short_name": "PWA_DEMO",
+	"icons": [
+		{
+			"src": "/icon.png",
+			"sizes": "192x192",
+			"type": "image/png"
+		},
+
+		{
+			"src": "/icon-512x512.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		}
+	],
+	"theme_color": "#0e294e",
+	"background_color": "#0e294e",
+	"start_url": "/",
+	"scope": "/",
+	"display": "standalone",
+	"orientation": "portrait"
+}
